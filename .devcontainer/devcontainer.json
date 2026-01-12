@@ -3,11 +3,17 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "runArgs": [
+    "--gpus=all",
+    "--shm-size=2gb" 
+  ],
   "extensions": [
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
-  "settings": {
-    "python.defaultInterpreterPath": "/opt/venv/bin/python"
-  }
+  "containerEnv": {
+      "CUDA_CACHE_DISABLE": "0",
+      "NVIDIA_TF32_OVERRIDE": "0"
+  },
+  "postCreateCommand": "nvidia-smi"
 }
