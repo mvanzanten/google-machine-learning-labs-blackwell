@@ -1,6 +1,6 @@
-# Google Machine Learning Labs (NVIDIA CUDA)
+# Google Machine Learning Labs (TensorFlow NGC (Blackwell Optimized))
 
-This repository contains hands-on machine learning exercises from the [Google Machine Learning Crash Course](https://developers.google.com/machine-learning). These interactive Jupyter notebooks provide practical experience with fundamental ML concepts.
+This repository contains hands-on machine learning exercises from the [Google Machine Learning Crash Course](https://developers.google.com/machine-learning). These interactive Jupyter notebooks provide practical experience with fundamental ML concepts. The container utilized and the configuration is designed to operate with NVIDIA Blackwell GPUs (RTX 50xx).
 
 ## Contents
 
