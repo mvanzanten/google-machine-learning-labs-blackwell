@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 # Ensure the Jupyter kernel uses the optimized NGC python path
 RUN python3 -m ipykernel install --user \
     --name tf-ngc \
-    --display-name "TensorFlow NGC (Blackwell)"
+    --display-name "TensorFlow NGC (Blackwell Optimized)"

@@ -8,16 +8,20 @@
     "--shm-size=32gb",
     "--memory=32gb"
   ],
-  "extensions": [
-    "ms-python.python",
-    "ms-toolsai.jupyter"
-  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python3"
+      }
+    }
+  },
   "containerEnv": {
       "CUDA_CACHE_DISABLE": "0",
       "NVIDIA_TF32_OVERRIDE": "0"
-  },
-  "settings": {
-      "python.defaultInterpreterPath": "/usr/bin/python3"
   },
   "postCreateCommand": "nvidia-smi"
 }
