@@ -1,5 +1,5 @@
 {
-  "name": "CUDA DevContainer with venv",
+  "name": "TensorFlow NGC (Blackwell Optimized)",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -15,6 +15,9 @@
   "containerEnv": {
       "CUDA_CACHE_DISABLE": "0",
       "NVIDIA_TF32_OVERRIDE": "0"
+  },
+  "settings": {
+      "python.defaultInterpreterPath": "/usr/bin/python3"
   },
   "postCreateCommand": "nvidia-smi"
 }
