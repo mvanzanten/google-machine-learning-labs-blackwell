@@ -1,5 +1,5 @@
 # Google Machine Learning Labs - TensorFlow NGC [Blackwell Optimized]
-<img src="https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-blk-500x200-4c25-d.png">
+<img src="https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-blk-500x200-4c25-d.png"/>
 This repository contains hands-on machine learning exercises from the [Google Machine Learning Crash Course](https://developers.google.com/machine-learning). These interactive Jupyter notebooks provide practical experience with fundamental ML concepts. The container utilized and the configuration is designed to operate with NVIDIA Blackwell GPUs (RTX 50xx).
 
 ## Contents
