@@ -13,7 +13,8 @@
       "extensions": [
         "ms-python.python",
         "ms-toolsai.jupyter",
-        "beardedbear.beardedtheme"
+        "beardedbear.beardedtheme",
+        "mechatroner.rainbow-csv"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/bin/python3",
